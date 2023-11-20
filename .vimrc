@@ -36,7 +36,7 @@ set tabpagemax=99
 call plug#begin('~/.vim/plugged')
 
 "" Accessible color themes
-Plug "https://gitlab.com/protesilaos/tempus-themes-vim.git"
+Plug 'https://gitlab.com/protesilaos/tempus-themes-vim.git'
 Plug 'vim-scripts/indentpython.vim'
 "" Allows commenting with `gc`/`gcc`
 Plug 'tpope/vim-commentary'
