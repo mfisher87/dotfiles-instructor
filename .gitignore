@@ -1,0 +1,2 @@
+# Ignore everything so `git status` isn't cluttered by every file in $HOME
+*

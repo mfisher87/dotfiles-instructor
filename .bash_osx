@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# Use coreutils installed by Homebrew
+export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"

@@ -1,0 +1,19 @@
+# ~/.bash_exports
+
+export EDITOR='vim'
+
+# Set up xterm for 256 colors
+if [[ $TERM == "xterm" ]]; then
+    export TERM="xterm-256color"
+fi
+
+# Increase the size of history file
+export HISTSIZE='32768'
+export HISTFILESIZE="$HISTSIZE"
+# Exclude duplicates and leading-space commands from history
+# See bash(1) for more options
+export HISTCONTROL='ignoreboth'
+
+export LANG='en_US.UTF-8'
+
+export GREP_COLOR='1;35;40'
